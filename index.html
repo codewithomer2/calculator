@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <h2>Mortgage calculator <span>Clear All</span></h2>
+            <form class="amt">
+                <label>
+                    <p>Mortage Amount</p>
+                    <div>
+
+                        <input type="text" id="amount" placeholder="£" />
+                    </div>
+                </label>
+            </form>
+
+            <div class="form2">
+                <form class="line">
+                    <label>
+                        <p>Mortage Term</p>
+                        <input type="number" id="term" />
+                    </label>
+
+                    <label>
+                        <p>Intrest rate</p>
+                        <input type="text" id="rate">
+                    </label>
+                </form>
+
+            </div>
+            <div class="repay" style="width: 100%;">
+                <h4>Mortage type</h4>
+                <label class="rbox">
+                    Repayment
+                    <input type="radio" name="type" id="repayment">
+                </label>
+                <label class="rbox">
+                    Interest
+                    <input type="radio" name="type" id="interest">
+                </label>
+            </div>
+            <button id="calcBtn"> <i class="fa-solid fa-calculator" style="margin-right: 8px;"></i>Calculates repayments</button>
+        </div>
+        <div class="right">
+            <h2>Your Results</h2>
+            <p>Your Results are shown below based on the information you provided. To Adjust the Results edit the form
+                and click "Calculates repayments". again</p>
+            <div class="box" id="resultBox" style="display: none;">
+
+                <p>Your monthly repayments</p>
+                <label class="rupees" id="newMonthly">
+                    
+                </label>
+                <hr>
+                <p>Total you'll repay over the term</p>
+                <legend id="newOverall"></legend>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/9d5ab67cda.js" crossorigin="anonymous"></script>
+
+    <script src="./index.js">
+
+    </script>
+</body>
+
+</html>

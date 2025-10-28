@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e7eb;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 800px;
+    height: 500px;
+    margin-top: 95px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+}
+
+
+.main .left {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    padding: 25px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.main .right {
+
+    width: 50%;
+    background-color: #0c303f;
+
+    padding: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 70px;
+}
+
+.right h2 {
+    color: white;
+    font-family: bold sans-serif;
+}
+
+.right p {
+    padding-top: 20px;
+    color: white;
+    padding-right: 100px;
+}
+
+.box {
+    background-color: #112433;
+    width: 310px;
+    height: 240px;
+    padding-left: 5px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-left: 25px;
+    box-shadow: 0 -6px 0 0 rgba(241, 201, 42, 0.9);
+}
+
+.box p {
+    padding-left: 3px;
+    padding-bottom: 20px;
+}
+
+label {
+    font-size: 40px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+hr {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.rupees {
+    padding-left: 9px;
+
+    color: yellow;
+    padding-top: 10px;
+
+}
+
+
+
+legend {
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+}
+
+.input {
+    width: 200px 350px;
+    height: 40px;
+
+    border-radius: 16px;
+    border: 1px solid grey;
+
+    font-size: 18px;
+    padding: 10 12px;
+}
+
+
+.amt input {
+    display: block;
+    margin-top: 6px;
+    padding: 8px;
+    width: 350px;
+
+}
+
+span input {
+    display: block;
+    margin-bottom: 5px;
+    padding: 9px;
+    width: 100%;
+    margin-top: auto;
+
+}
+
+label input {
+    width: 100%;
+}
+
+
+
+input {
+    display: block;
+    margin-top: 5px;
+    padding: 9px;
+
+
+}
+
+.form2 form {
+    display: flex;
+    gap: 20px;
+
+}
+
+.amt label p {
+    font-size: 15px;
+    padding-top: 35px;
+    color: grey;
+}
+
+.amt label input {
+    margin-top: 8px;
+}
+
+.form2 form span input {
+    margin-top: 8px;
+}
+
+span {
+    text-decoration: none;
+}
+
+.line p {
+    margin-top: 9px;
+    color: grey;
+    font-size: 15px;
+    padding: 6px 0;
+}
+
+.line {
+    margin-top: 10px;
+}
+
+.repay label {
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;   
+
+}
+
+.repay {
+    display: flex;
+    flex-direction: column;
+}
+.repay label input{
+    justify-self: flex-end;
+}
+.rbox{
+margin-top: 10px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  color: #303a49;
+  font-size: 20px;
+  font-weight: 500;
+  height: 55px;
+}
+.rbox input {
+    width: 30px;
+    
+    
+}
+.repay h4 {
+    margin-top: 40px;
+    color: grey;
+}
+button{
+    background-color: #e6d92c;
+height: 50px;
+width:250px;
+border-radius: 30px;
+margin-top: 15px;
+margin-left: 40px;
+border: 0;
+outline: 0;
+font-weight: 750;
+font-size: 17px;
+
+}
+input::placeholder{
+    font-size: 20px;
+    margin-top: 3px;
+   
+}
+
+
+ 
+        
